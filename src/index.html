@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Uber - Nunca foi tão fácil viajar!</title>
   </head>
   <body>
-    <!-- Header -->
     <header class="w-full h-20 bg-black px-2">
       <div
-        class="w-full max-w-7xl mx-auto h-20 flex justify-between items-center"
+        class="w-full max-w-7xl h-20 mx-auto px-6 flex justify-between items-center"
       >
         <div class="flex items-center">
           <img
@@ -20,7 +23,7 @@
             class="w-20 mr-7"
           />
 
-          <nav class="hidden sm:flex gap-5">
+          <nav class="hidden sm:flex items-center gap-5">
             <a
               href="#"
               class="text-white font-medium hover:bg-zinc-900 p-2 rounded-lg duration-500"
@@ -45,5 +48,60 @@
         </div>
       </div>
     </header>
+
+    <main class="w-full">
+      <div class="w-full max-w-7xl mx-auto flex">
+        <section class="bg-white w-full max-w-lg md:mx-2 md:my-2">
+          <div class="bg-slate-100 w-full flex items-center justify-between">
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-signal" style="font-size: 32px"> </i>
+              <span class="text-center font-medium"
+                >Faça viagens ou entregas</span
+              >
+              <span class="bg-black w-full h-[1.5px]"></span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-car" style="font-size: 32px"> </i>
+              <span class="text-center font-medium">Viajar</span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-key" style="font-size: 32px"> </i>
+              <span class="text-center font-medium">Alugue seus carros</span>
+            </section>
+          </div>
+
+          <div class="flex flex-col gap-5 my-4 px-4">
+            <h1 class="text-4xl font-bold max-w-sm">
+              Assuma o comando e ganhe
+            </h1>
+
+            <p class="max-w-sm">
+              Dirija na plataforma com a maior rede de usuários ativos.
+            </p>
+
+            <button
+              class="bg-black self-start text-white px-6 py-2 rounded-lg font-medium hover:scale-105 duration-300"
+            >
+              Cadastre-se para dirigir
+            </button>
+
+            <a
+              href="#"
+              class="text-gray-700 mt-7 mb-4 border-b-2 self-start hover:border-gray-700 duration-200"
+            >
+              Saiba mais sobre como dirigir e fazer entregas
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
   </body>
 </html>
